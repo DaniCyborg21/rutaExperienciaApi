@@ -6,6 +6,7 @@ const contenido = require('./routes/contenido')
 const beneficio = require('./routes/beneficio')
 const carrera = require('./routes/carrera')
 const pregunta = require('./routes/pregunta')
+const sede = require('./routes/sede')
 const calificacion = require('./routes/calificacion')
 
 // CREACION DEL SERVIDOR
@@ -37,4 +38,5 @@ app.use('/contenido', contenido)
 app.use('/beneficio', beneficio)
 app.use('/carrera', carrera)
 app.use('/pregunta', pregunta)
+app.use('/sede', sede)
 app.use('/calificacion', calificacion)
