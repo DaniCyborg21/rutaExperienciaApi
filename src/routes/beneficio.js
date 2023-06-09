@@ -8,7 +8,7 @@ router.get('/', getBeneficios)
 
 router.get('/:id', getBeneficio)
 
-router.get('/carrera/:id', getBeneficiosCarrera)
+router.get('/carrera/:IdCarrera', getBeneficiosCarrera)
 
 router.post('/', postBeneficio)
 
